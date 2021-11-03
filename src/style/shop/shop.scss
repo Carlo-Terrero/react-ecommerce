@@ -26,4 +26,21 @@
         width: 100%;
         justify-self: center;
     }
+
+    &__cart-button {
+        z-index: 5;
+    }
+
+    &__cart,
+    &__cart-button {
+        // grid-row: 1/-1;
+        // grid-column: 1/-1;
+        // align-self: start;
+        // justify-self: end;
+
+
+        position: absolute;
+        top: 115px;
+        right: 0px;
+    }
 } 
