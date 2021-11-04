@@ -71,7 +71,7 @@ class Shop extends Component {
                 }
 
                 <CartButton onClick={this.handleAddToCart} className='shop__cart-button' icon='fas fa-cart-plus'/>
-               {/*  <ShopCart/> */}
+               
             </div>
         )
     }
