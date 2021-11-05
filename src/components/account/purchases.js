@@ -14,7 +14,7 @@ class Purchases extends Component {
 
         return (
             <div className={`${className} purchases`}>
-                 {
+                {
                     this.props.purchases.map(purchase => {
                         return (
                             <a onClick={() => this.props.setPurchaseDetail(purchase._id)} key={purchase._id} className='purchases__purchase purchase'>
@@ -35,4 +35,4 @@ function mapStateToProps(state) {
 
 Purchases = connect(mapStateToProps, actions)(Purchases);
 
-export default Purchases; 
+export default Purchases;

@@ -12,11 +12,11 @@ class PurchaseHistory extends Component {
                 <div className='purchase-history__content'>
                     <Purchases className='purchase-history__purchases'/>
                     <PurchaseDetail className='purchase-history__detail'/>
-                </div> 
+                </div>
                 <div className='purchase-history__border-bottom'></div>
             </div>
         )
     }
 }
 
-export default PurchaseHistory; 
+export default PurchaseHistory;

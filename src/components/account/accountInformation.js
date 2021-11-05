@@ -11,7 +11,7 @@ class AccountInformation extends Component {
 
     render() {
         return (
-            <div>
+            <div className='account-information'>
                 <PageTitle className='account-information' title='Account Information'/>
                 <AccountInformationForm onSubmit={this.onSubmit} className='account-information__form' />
             </div>
@@ -19,4 +19,4 @@ class AccountInformation extends Component {
     }
 }
 
-export default AccountInformation; 
+export default AccountInformation;
