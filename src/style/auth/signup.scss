@@ -57,3 +57,30 @@
         align-self: start;
     }
 }
+
+@media (max-width: 1120px) {
+    .sign-up-form {
+        &__password {
+            margin-top: 80px;      
+        }
+        &__confirm  {
+            margin-top: 70px;      
+        }
+        &__details {
+            margin-top: 20px;         
+            grid-row: space-s/space-e;
+            margin-bottom: 20px;
+            justify-self: left;
+            
+        }
+        .details {
+            &__links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+        }
+    }
+
+
+}

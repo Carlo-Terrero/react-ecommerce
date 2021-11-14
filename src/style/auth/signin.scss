@@ -43,3 +43,14 @@
         align-self: start;
     }
 }
+
+@media (max-width: 1200px) {
+
+    .sign-in-form {   
+        &__details {
+            margin-top: 80px;
+            grid-row: password-e/line-s;
+            justify-self: left;            
+        }        
+    }
+}
